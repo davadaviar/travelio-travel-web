@@ -1,0 +1,19 @@
+HTML
+
+    - <section class="section-details-header"></section>
+    tidak ada isi dalam tag karena dibuat untuk background abu2
+    - terdapat kelas breadcrumb yang berfungsi untuk menandakan tampilan
+      user ada di halaman tersebut.
+    - membuat breadcrumb -> nav -> ol class = breadcrumb -> li class = breadcrumb-
+      item
+    - class gellery 
+        - pake library xzoom
+        - class xzoom-container (main pict)
+            - class xoriginal (untuk menampilkan gambar asli)
+        - class xzoom-thumbnail (gallery kecil)
+            - class xpreview (untuk menampilkan gambar thumbnail)
+    - card-right class btn-block agar kotak penuh
+SCSS
+
+    - height: 100vh; untuk memberi jeda halaman sesuai ukuran layar dekstop/device
+    - .xzoom-container display: block; agar ukuran penuh

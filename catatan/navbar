@@ -1,0 +1,32 @@
+HTML
+
+    class container = supaya ukuran bisa dicustom, tidak mengikuti ukuran 100% layar.
+
+    button = aksi responsif ketika layar lebarnya mengecil maka icon button keluar.
+    - navbar-toggler untuk mengatur tombol navbar mulai posisi dll.
+
+    collapse navbar = perubahan navbar ketika responsif mode
+    - class nav-link active : untuk memberikan kesan bold pada link yang di klik
+    - penamaan -> m : margin
+            -> p : padding
+    - untuk dropdown navigation : class dropdown-menu harus satu elemen dgn class li nav-item dropdown
+
+    Mobile button 
+    - sm : untuk layar kecil untuk hp
+    - sm-block : untuk tombol kotak
+    - md-none : untuk dilayar besar tidak tampil
+
+    Dekstop button
+    - d-none : tombol tidak dimunculkan awal - awal
+    - d-md-block : baru tombol dimunculkan
+
+    form mobile button dan dekstop button harus di luar element ul
+
+
+SCSS
+
+    - !important : penting, artinya harus diplay
+    - jika ada action tambahan pada class maka ditambahi simbol "&" dalam kurung kurawal agar tidak
+      tidak menulis ulang elemennya lagi
+    
+

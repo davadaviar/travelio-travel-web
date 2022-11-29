@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" 
+    rel="stylesheet"
+    >
+    <title>Travelio</title>
+</head>
+
+<body> 
+
+    <!-- Navbar -->
+
+<div class="container fixed-top">
+    <div class="row navbar navbar-expand navbar-light bg-light">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/Travelio..png" alt="">
+            </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+            <li class="text-muted">
+                <span>
+                    | &nbsp; Beyond  the explorer of the world
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<main>
+    <div class="section-success d-flex align-items-center">
+        <div class="col text-center">
+            <img src="frontend/images/illustration.png" alt="" class="illustration">
+            <h2>Yay!Success</h2>
+           <p>
+            We’ve send you an email for trip instruction 
+            <br>
+            please read it as well            
+           </p>
+           <a href="index.html" class="btn btn-home-page mt-3 px-4">Home Page</a>
+        </div>
+    </div>
+</main>
+
+
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                xOffset: 15,
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon:'<img src="frontend/images/icon_doe.png" alt=" " />' 
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

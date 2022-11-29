@@ -1,0 +1,15 @@
+HTML
+
+    - jika ada kelas container maka wajib ada kelas row dan kolom
+    - col-sm-6 col-md-4 col-lg-3
+
+        - 1 row = 12 kolom
+        - col-sm-6 = 12 : 6 = 2 kolom pada small device
+        - col-md-4 = 12 : 4 = 3 kolom pada medium device
+        - col-lg-3 = 12 : 3 = 4 kolom pada large device
+
+    - sehingga pada web travelio ketika lebar device small card terbagi menjadi
+      2 kolom, medium device terbagi menjadi 3 kolom dan large device menjadi
+      4 kolom
+
+    - d-flex ketika layar desktop maka display nya flex (kesamping kanan)

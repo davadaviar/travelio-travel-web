@@ -1,0 +1,652 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+    margin-top: 150px;
+}
+
+//navbar
+
+.navbar-brand {
+    img{
+        max-height: 40px;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important; 
+    margin-bottom: -8px !important;
+    margin-right: -20px !important;
+
+    height: 70px;
+    width: 130px;
+    border-radius: 0;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
+
+            &.active {
+                font-weight: bold;
+                color: #071C4D !important;
+            }
+        }
+    }
+}
+
+
+.btn-login {
+    background-color: #071C4D;
+    color: #fff;
+
+    &:hover{
+        background-color:#264180 ;
+        color: #fff;
+    }
+}
+
+//header
+
+header {
+
+    padding: 180px 0 165px;
+    margin-top: -70px;
+
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+
+    h1, p {
+        color: #fff;
+    }
+    h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+        
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            background-color:#FFB175 ;
+            color: #fff;
+        }
+    }
+}
+
+
+//statistics
+
+.section-statistic {
+    margin: -100px 15px 0;
+
+    .statistic-details {
+        background-color: #fff;
+        padding-top: 15px;
+        
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+}
+
+//Popular Vacation
+
+.section-vacation {
+
+    min-height: 800px;
+    background-color: #071C4D;
+    margin-top: -320px;
+    margin-bottom: -10px;
+
+    .section-popular-heading {
+        margin-top: 420px;
+    
+        h2, p {
+            color: #fff;
+        }
+    
+        h2 {
+            font-family: 'Playfair Display', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+        }
+    
+        p {
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    }
+    
+}
+
+.section-popular-content {
+
+    margin-top: -270px;
+    .section-popular-travel {
+        
+        .card-travel {
+            min-height: 380px;
+            background: rgb(59, 59, 59);
+            color: #fff;
+            padding: 30px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            background-size: cover;
+
+            .travel-country {
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .travel-location {
+                font-size: 21px;
+                color: #fff;
+            }
+
+            .travel-button {
+                .btn-travel-details {
+                    background-color: #FF9E53;
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #FFB175;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-networks {
+    background-color: #fff;
+    margin-top: -230px;
+    padding-top: 280px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(180deg, #F7F9FF 0%, #F7F9FF 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-content {
+        min-height: 200px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .testimonial {
+        font-weight: 200;
+        font-size: 26px;
+        color: #6e6e6e;
+        min-height: 150px;
+    }
+
+    hr {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .trip-to {
+        font-weight: normal;
+        font-size: 22px;
+        color: #6e6e6e;
+    }
+}
+
+.btn-get-started {
+    background-color: #FF9E53;
+    color: #fff;
+
+    &:hover {
+        background-color: #FFB175;
+        color: #fff;
+    }
+}
+
+.btn-need-help {
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+
+    &:hover {
+        background-color: #fafafa;
+        color: #c3c3c3;
+    }
+}
+
+.section-footer {
+    a {
+        color: #071C4D;
+    }
+}
+
+// Details Page & Checkout Details Page
+
+.section-details-header {
+    min-height: 310px;
+    background-color: #e4e6eb;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -200px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #071C4D;
+        }
+    }
+
+    .card-place-details {
+        padding: 30px;
+        border-radius: 11px;
+        margin-bottom: 50px;
+    
+        h1 {
+            font-size: 26px;
+        }
+    
+        h2 {
+            font-family: 'Playfair Display', sans-serif;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+    
+    }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+    
+            .xzoom {
+                max-width: 100%;
+                box-shadow: none;
+                margin-bottom: 20px;
+            }
+    
+            .xactive {
+                border: 4px solid #1abc9c;
+                box-shadow: none;
+            }
+    
+        }
+    }
+
+    .features {
+        margin-top: 30px;
+    
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        .features-image {
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+        
+        .description {
+            margin-left: 10px;
+            float: left;
+            overflow: hidden;
+        }
+        
+    }
+
+    .card-right {
+        border-radius: 11px 11px 0 0;
+        border-bottom: none;
+        margin-bottom: 0;
+        
+        h2 {
+            font-family: 'Assistant', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    
+        th {
+            font-family: 'Assistant', sans-serif;
+            font-weight: normal;
+            color: #071C4D;
+        }
+    
+        tr {
+            font-weight: lighter;
+            color: #c3c3c3;
+        }
+    
+    }
+
+    .join-container {
+        margin-top: -17px;
+    
+        .btn-join-now {
+            background-color: #FF9E53;
+            color: #fff;
+            border-radius: 0 0 11px 11px;
+    
+            &:hover {
+                background-color: #FFB175;
+                color: #fff;
+            }
+        }
+    }
+
+    .members {
+        .member-image {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+
+    //Checkout Details
+
+
+    .card-checkout-details {
+       border-radius: 11px;
+       padding: 30px;
+       margin-bottom: 3em;
+       
+        .member {
+            h2 {
+                font-size: 23px;
+            }
+        }
+
+
+        //Inspect element google
+
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+        }
+
+        .input-group-append {
+            padding-right: 2px;
+        }
+
+        .btn-add-member {
+            background-color: #071C4D;
+            color: #fff;
+
+            &:hover {
+                background-color: #264180;
+                color: #fff;
+            }
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .disclaimer {
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+    }
+
+    .card-checkout-right {
+        padding: 30px;
+
+        .info-checkout {
+            th {
+                font-weight: normal;
+                color: #071C4D;
+            }
+
+            td {
+                font-weight: normal;
+            }
+
+            .text-total {
+                .text-blue {
+                    color: #071C4D;
+                    font-weight: bold;
+                }
+    
+                .text-orange {
+                    color: #FF9E53;
+                    font-weight: bold;
+                }
+            }
+        }
+        
+    }
+
+    .payment-instruction {
+        font-size: 15px;
+        color: #b1b1b1;
+    }
+
+    .bank {
+        margin-bottom: 10px;
+        .bank-item{
+            h3 {
+                font-size: 15px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+
+        .description {
+            margin-left: 30px;
+            float: left;
+            overflow: hidden;
+        }
+        
+        .bank-image{
+            width: 45px;
+            height: 45px;
+            float: left;
+            }
+        }
+    }
+}
+
+.section-success {
+    height: 90vh;
+
+    .illustration {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-weight: normal;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        background-color: #071C4D;
+        color: #fff;
+
+        &:hover {
+            background-color: #264180;
+            color: #fff;
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .section-statistic {
+        margin: -50px 15px 0;
+    
+        .statistic-details {
+            background-color: #fff;
+            padding-top: 15px;
+            
+        }
+    
+        h2 {
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+    
+        p {
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    }
+
+    .section-vacation {
+
+        min-height: 500px;
+        background-color: #071C4D;
+        margin-top: -55px;
+        margin-bottom: -10px;
+    
+        .section-popular-heading {
+            margin-top: 150px;
+        
+            h2, p {
+                color: #fff;
+            }
+        
+            h2 {
+                font-family: 'Playfair Display', sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+            }
+        
+            p {
+                font-size: 18px;
+                font-weight: lighter;
+            }
+        }
+        
+    }
+    
+    .section-popular-content {
+    
+        margin-top: -210px;
+        .section-popular-travel {
+            
+            .card-travel {
+                min-height: 380px;
+                background: rgb(59, 59, 59);
+                color: #fff;
+                padding: 30px;
+                margin-top: 50px;
+                margin-bottom: 30px;
+                background-size: cover;
+    
+                .travel-country {
+                    font-size: 18px;
+                    color: #fff;
+                }
+    
+                .travel-location {
+                    font-size: 21px;
+                    color: #fff;
+                }
+    
+                .travel-button {
+                    .btn-travel-details {
+                        background-color: #FF9E53;
+                        color: #fff;
+    
+                        &:hover {
+                            color: #fff;
+                            background-color: #FFB175;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

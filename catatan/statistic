@@ -1,0 +1,11 @@
+HTML
+
+    - container : selalu gunakan container untuk mengatur sebuah ukuran konten
+                  sehingga ukuran bisa dicustom
+    - section : untuk membungkus struktur div jika ada beberapa bagian nested
+                div sehingga tidak merusak struktur bagian div lain
+    - row : karena jenis konten terdapat 4 row yang berisi konten statistik spt
+            (member, contry, hotel dan partner)
+    - col-3 : untuk mengatur pada mobile terdapat 3 kolom pada tulisan content
+    - md-2 : untuk mengatur pada layar tablet ke atas agar menjadi 2 kolom pada tulisan 
+             content
